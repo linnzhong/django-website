@@ -5,17 +5,17 @@
 </head>
 <body>
  <!-- Site Header-->
- <h1>I am Linn's blog.</h1>
+ <h1>Haloo, here's Linnnnn.</h1>
 
  <!-- Blog Post -->
-  <h2>My first blog post.</h2>
+  <h2>Linn's a good girl so many people want to become Linn's friend. To become Linn's friend u should know that Linn likes Lana Del Rey pretty much.So the only way to make friend with Linn is to say Oh Linn! LANA IS SOOOOOOOOO CHARMING!!!!!</h2>
   <p>Here it is.</p>
+  <p><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523601986620&di=1218d0360c0289e229714c1030a0bbe8&imgtype=0&src=http%3A%2F%2Fimg5.duitang.com%2Fuploads%2Fblog%2F201408%2F25%2F20140825223205_RWTrE.jpeg">></p>>
 
 <!-- Like And Comment -->
  <button>Like</button>
  <h2>Leave a Comment</h2>
  <form action="{% url 'blog:home_page' %}" method="POST">
- {% csrf_token %}
  <input type="text" placeholder="Please Enter Your username" name="username"><br><br>
  <textarea name="comment" placeholder="Please Enter Your Comment"></textarea><br>
  <input type="submit" value="Post Me!">
